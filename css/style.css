@@ -1,0 +1,199 @@
+.ProfilePic {
+  display: flex;
+  flex-direction: column;
+  height: 255px;
+  justify-content: center;
+  background-image: url("../images/profile-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+}
+.ProfilePic-img {
+  margin: 0 auto;
+  background-image: url("../images/profile-img.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 140px;
+  height: 140px;
+  background-size: cover;
+  border: 8px solid rgba(203, 206, 211, 0.4);
+  border-radius: 140px;
+}
+.Nav {
+  display: flex;
+  flex-direction: column;
+}
+.Nav ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+  text-align: right;
+  line-height: 3;
+}
+@media screen and (max-width: 720px) {
+  .Nav ul {
+    flex-direction: row;
+    text-align: center;
+  }
+}
+.Nav li {
+  background: linear-gradient(to bottom, #2c383c 0%, #2a363a 100%);
+  border-bottom: 1px solid #222b2e;
+  color: #d1d1d1;
+  font-size: 17px;
+  height: 60px;
+  transition-property: background;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+@media screen and (max-width: 720px) {
+  .Nav li {
+    flex-direction: row;
+    text-align: center;
+    border-right: 1px solid #222b2e;
+  }
+  .Nav li:last-child {
+    border-right: none;
+  }
+}
+.Nav li:hover,
+.Nav li:hover a {
+  color: black;
+}
+.Nav li:last-child {
+  border-botom: none;
+}
+.Nav a {
+  font-size: 17px;
+  text-decoration: none;
+  color: #d1d1d1;
+}
+.footer {
+  align-self: flex-end;
+  background-color: #f1f1f1;
+  height: 60px;
+}
+.footer .p1 {
+  color: #484c50;
+  font-weight: 600;
+  font-size: 14px;
+}
+.footer .p1--alignRight {
+  text-align: right;
+}
+.Sep {
+  height: 3px;
+  width: 70px;
+  background: #ffd42d;
+  margin: 20px 30px auto;
+  padding: 0 30px;
+}
+.Sep--wide {
+  background-color: #f6f6f6;
+  height: 1px;
+  margin: 30px 30px ;
+}
+.Sep--marginBottom {
+  margin-bottom: 30px;
+}
+.Bgchange {
+  width: 100%;
+  padding: 0;
+  position: relative;
+  background: none;
+  z-index: 1;
+  float: left;
+}
+.Bgchange::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  z-index: -2;
+  background: #ffd42d;
+  transition: width 1s;
+  right: 0;
+}
+.Bgchange:hover::before {
+  width: 100%;
+  color: black;
+}
+.HideText {
+  text-decoration: none;
+  font-size: 16px;
+}
+@media screen and (max-width: 720px) {
+  .HideText {
+    display: none;
+  }
+}
+.secStyle h2 {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 36px;
+  color: #606060;
+  padding: 0 30px;
+}
+.secStyle p {
+  color: #828282;
+  font-size: 21px;
+  line-height: 41px;
+  margin: 0 0 10px;
+  padding: 30px;
+}
+.secStyle .spanStrong {
+  font-weight: 700;
+  color: #000;
+}
+.PerslInfoCard {
+  display: flex;
+  flex-direction: row;
+  line-height: 43px;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+@media screen and (max-width: 720px) {
+  .PerslInfoCard {
+    padding: 5px;
+    color: #828282;
+  }
+}
+.PerslInfoCard-label {
+  flex: 1;
+  color: #9b9b9b;
+  font-weight: 600;
+  font-size: 16px;
+  border: 1px solid #f6f6f6;
+}
+.PerslInfoCard-content {
+  flex: 4;
+  color: #484c50;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #f6f6f6;
+  border: 1px solid #f6f6f6;
+}
+body {
+  background: #d9dbdd;
+}
+.bgcolor {
+  background-color: #d9dbdd;
+}
+.fa {
+  margin: 10px;
+  font-weight: 300;
+}
+.containerMarginTop {
+  margin-top: 60px;
+}
+@media screen and (max-width: 720px) {
+  .containerMarginTop {
+    margin-top: 0px;
+  }
+}
+.containerBgcolor {
+  background-color: #fff;
+}

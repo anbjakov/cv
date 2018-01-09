@@ -1,0 +1,18 @@
+.secStyle h2 {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 36px;
+  color: #606060;
+  padding: 0 30px;
+}
+.secStyle p {
+  color: #828282;
+  font-size: 21px;
+  line-height: 41px;
+  margin: 0 0 10px;
+  padding: 30px;
+}
+.secStyle .spanStrong {
+  font-weight: 700;
+  color: #000;
+}

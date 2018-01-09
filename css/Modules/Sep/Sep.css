@@ -1,0 +1,15 @@
+.Sep {
+  height: 3px;
+  width: 70px;
+  background: #ffd42d;
+  margin: 20px 30px auto;
+  padding: 0 30px;
+}
+.Sep--wide {
+  background-color: #f6f6f6;
+  height: 1px;
+  margin: 30px 30px ;
+}
+.Sep--marginBottom {
+  margin-bottom: 30px;
+}

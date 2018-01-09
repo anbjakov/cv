@@ -1,0 +1,30 @@
+.PerslInfoCard {
+  display: flex;
+  flex-direction: row;
+  line-height: 43px;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+@media screen and (max-width: 720px) {
+  .PerslInfoCard {
+    padding: 5px;
+    color: #828282;
+  }
+}
+.PerslInfoCard-label {
+  flex: 1;
+  color: #9b9b9b;
+  font-weight: 600;
+  font-size: 16px;
+  border: 1px solid #f6f6f6;
+}
+.PerslInfoCard-content {
+  flex: 4;
+  color: #484c50;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #f6f6f6;
+  border: 1px solid #f6f6f6;
+}

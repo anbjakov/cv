@@ -1,0 +1,9 @@
+.HideText {
+  text-decoration: none;
+  font-size: 16px;
+}
+@media screen and (max-width: 720px) {
+  .HideText {
+    display: none;
+  }
+}
